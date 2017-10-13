@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "96a1a7a643ed8900c88e44631bcc5b55"
+build_time: [1507879229, 94052000]
+inputs:
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/View/HeaderTableViewCell.swift": [1507866536, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/ViewController.swift": [1507794870, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/View/ThirdNormalTableViewCell.swift": [1507866536, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/ViewController/HeaderMixViewController.swift": [1507864424, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/ViewController/NormalViewController.swift": [1507879147, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/Model/globalModel.swift": [1507879228, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/AppDelegate.swift": [1507794870, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/View/CollectViewCell.swift": [1507866536, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/Protocols/protocols.swift": [1507878824, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/View/NormalTableViewCell.swift": [1507866536, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/Model/dataSource.swift": [1507874675, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/Model/FistDemoModel.swift": [1507878824, 0]
+  "/Users/tuikai/Desktop/swift\u5B9E\u4F8B/ProtocolCodingDemo/ProtocolCodingDemo/ViewController/CollectViewController.swift": [1507864411, 0]

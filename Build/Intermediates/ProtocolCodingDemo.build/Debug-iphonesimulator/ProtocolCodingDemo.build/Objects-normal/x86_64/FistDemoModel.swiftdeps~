@@ -1,0 +1,90 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FirstDemoModel"
+provides-nominal:
+- "18ProtocolCodingDemo05FirstC5ModelV"
+provides-member:
+- ["18ProtocolCodingDemo05FirstC5ModelV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Event"
+- "Festival"
+- "FirstDemoModel"
+- "eventData"
+- "festivalData"
+depends-member:
+- ["Sa", "map"]
+- ["s23BidirectionalCollectionP", "map"]
+- ["s7CVarArgP", "map"]
+- ["s10CollectionP", "map"]
+- ["s28CustomDebugStringConvertibleP", "map"]
+- ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", "map"]
+- ["s9DecodableP", "map"]
+- ["s9EncodableP", "map"]
+- ["18ProtocolCodingDemo5EventV", "init"]
+- ["s25ExpressibleByArrayLiteralP", "map"]
+- ["18ProtocolCodingDemo8FestivalV", "init"]
+- ["18ProtocolCodingDemo05FirstC5ModelV", "Event"]
+- ["18ProtocolCodingDemo05FirstC5ModelV", "Festival"]
+- ["18ProtocolCodingDemo05FirstC5ModelV", "eventArray"]
+- ["18ProtocolCodingDemo05FirstC5ModelV", "eventData"]
+- ["18ProtocolCodingDemo05FirstC5ModelV", "festivalArray"]
+- ["18ProtocolCodingDemo05FirstC5ModelV", "festivalData"]
+- ["18ProtocolCodingDemo05FirstC5ModelV", "init"]
+- ["s17MutableCollectionP", "map"]
+- ["s22RandomAccessCollectionP", "map"]
+- ["s26RangeReplaceableCollectionP", "map"]
+- ["s8SequenceP", "map"]
+- ["s14_ArrayProtocolP", "map"]
+- ["s23_BidirectionalIndexableP", "map"]
+- ["s24_DestructorSafeContainerP", "map"]
+- ["s10_IndexableP", "map"]
+- ["s14_IndexableBaseP", "map"]
+- ["s17_MutableIndexableP", "map"]
+- ["s21_ObjectiveCBridgeableP", "map"]
+- ["s22_RandomAccessIndexableP", "map"]
+- ["s26_RangeReplaceableIndexableP", "map"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "18ProtocolCodingDemo5EventV"
+- "s25ExpressibleByArrayLiteralP"
+- "18ProtocolCodingDemo8FestivalV"
+- "18ProtocolCodingDemo05FirstC5ModelV"
+- "s17MutableCollectionP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- "s24_DestructorSafeContainerP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "dea4522ef178b4939ed7b7c68320bc9a"
