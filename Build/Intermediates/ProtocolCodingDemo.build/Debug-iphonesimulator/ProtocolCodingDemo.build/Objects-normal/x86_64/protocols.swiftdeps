@@ -1,19 +1,193 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "HasDate"
+- "cellPresentable"
 provides-nominal:
 - "18ProtocolCodingDemo7HasDateP"
+- "18ProtocolCodingDemo15cellPresentableP"
 provides-member:
 - ["18ProtocolCodingDemo7HasDateP", ""]
+- ["18ProtocolCodingDemo15cellPresentableP", ""]
+- ["18ProtocolCodingDemo15cellPresentableP", "updateCell"]
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
 - "HasDate"
+- "NormalTableViewCell"
 - "String"
+- "UIImage"
+- "cellPresentable"
 depends-member:
+- !private ["So15CALayerDelegateP", "date"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "img"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "title"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "img"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "img"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "img"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "img"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "title"]
 - ["18ProtocolCodingDemo7HasDateP", "String"]
 - ["18ProtocolCodingDemo7HasDateP", "date"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "img"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "title"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "img"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "image"]
+- !private ["So8NSObjectC", "img"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So16NSObjectProtocolP", "date"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "img"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["18ProtocolCodingDemo19NormalTableViewCellC", "date"]
+- !private ["18ProtocolCodingDemo19NormalTableViewCellC", "img"]
+- !private ["18ProtocolCodingDemo19NormalTableViewCellC", "title"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "date"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "img"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "title"]
+- !private ["So12UIAppearanceP", "date"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "img"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "title"]
+- !private ["So21UIAppearanceContainerP", "date"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "img"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "date"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "img"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "title"]
+- !private ["So13UIDynamicItemP", "date"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "img"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "title"]
+- !private ["So18UIFocusEnvironmentP", "date"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "img"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So11UIFocusItemP", "date"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "img"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "title"]
+- !private ["So27UIGestureRecognizerDelegateP", "date"]
+- !private ["So27UIGestureRecognizerDelegateP", "img"]
+- !private ["So27UIGestureRecognizerDelegateP", "title"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "date"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "img"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So11UIResponderC", "date"]
+- !private ["So11UIResponderC", "image"]
+- !private ["So11UIResponderC", "img"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "date"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "img"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So15UITableViewCellC", "date"]
+- !private ["So15UITableViewCellC", "img"]
+- !private ["So15UITableViewCellC", "title"]
+- !private ["So18UITraitEnvironmentP", "date"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "img"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So6UIViewC", "date"]
+- !private ["So6UIViewC", "image"]
+- !private ["So6UIViewC", "img"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "title"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "date"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "img"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "img"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- ["18ProtocolCodingDemo15cellPresentableP", "NormalTableViewCell"]
+- ["18ProtocolCodingDemo15cellPresentableP", "String"]
+- ["18ProtocolCodingDemo15cellPresentableP", "UIImage"]
+- ["18ProtocolCodingDemo15cellPresentableP", "dateLabelData"]
+- ["18ProtocolCodingDemo15cellPresentableP", "imageData"]
+- ["18ProtocolCodingDemo15cellPresentableP", "mixlabelData"]
+- ["18ProtocolCodingDemo15cellPresentableP", "updateCell"]
 depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
 - "18ProtocolCodingDemo7HasDateP"
+- !private "s8HashableP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "18ProtocolCodingDemo19NormalTableViewCellC"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So15UITableViewCellC"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "18ProtocolCodingDemo15cellPresentableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -29,4 +203,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "dbc92e1d0d7a26df46ae6e3c80a2b5c2"
+interface-hash: "7099f5bbf5c30c8df03a619979f31f55"

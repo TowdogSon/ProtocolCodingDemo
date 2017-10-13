@@ -7,44 +7,121 @@ provides-member:
 - ["18ProtocolCodingDemo05FirstC5ModelV", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "<"
 - "Event"
 - "Festival"
 - "FirstDemoModel"
+- "HasDate"
 - "eventData"
 - "festivalData"
 depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
 - ["Sa", "map"]
+- !private ["Sa", "sort"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "forEach"]
 - ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "sort"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "forEach"]
 - ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "sort"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "forEach"]
 - ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "sort"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
 - ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "sort"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "forEach"]
 - ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "sort"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
 - ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "sort"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "forEach"]
 - ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "sort"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "forEach"]
 - ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "sort"]
+- !private ["18ProtocolCodingDemo5EventV", "deinit"]
 - ["18ProtocolCodingDemo5EventV", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
 - ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "sort"]
+- !private ["18ProtocolCodingDemo8FestivalV", "deinit"]
 - ["18ProtocolCodingDemo8FestivalV", "init"]
 - ["18ProtocolCodingDemo05FirstC5ModelV", "Event"]
 - ["18ProtocolCodingDemo05FirstC5ModelV", "Festival"]
+- ["18ProtocolCodingDemo05FirstC5ModelV", "HasDate"]
 - ["18ProtocolCodingDemo05FirstC5ModelV", "eventArray"]
 - ["18ProtocolCodingDemo05FirstC5ModelV", "eventData"]
 - ["18ProtocolCodingDemo05FirstC5ModelV", "festivalArray"]
 - ["18ProtocolCodingDemo05FirstC5ModelV", "festivalData"]
 - ["18ProtocolCodingDemo05FirstC5ModelV", "init"]
+- ["18ProtocolCodingDemo05FirstC5ModelV", "mixedArray"]
+- !private ["18ProtocolCodingDemo7HasDateP", "date"]
+- ["18ProtocolCodingDemo7HasDateP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "forEach"]
 - ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "sort"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "forEach"]
 - ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "sort"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "forEach"]
 - ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "sort"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "forEach"]
 - ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "sort"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
 - ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "sort"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "forEach"]
 - ["s23_BidirectionalIndexableP", "map"]
+- !private ["s23_BidirectionalIndexableP", "sort"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
 - ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "sort"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "forEach"]
 - ["s10_IndexableP", "map"]
+- !private ["s10_IndexableP", "sort"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "forEach"]
 - ["s14_IndexableBaseP", "map"]
+- !private ["s14_IndexableBaseP", "sort"]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "forEach"]
 - ["s17_MutableIndexableP", "map"]
+- !private ["s17_MutableIndexableP", "sort"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
 - ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "sort"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "forEach"]
 - ["s22_RandomAccessIndexableP", "map"]
+- !private ["s22_RandomAccessIndexableP", "sort"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "forEach"]
 - ["s26_RangeReplaceableIndexableP", "map"]
+- !private ["s26_RangeReplaceableIndexableP", "sort"]
 depends-nominal:
 - "Sa"
 - "s23BidirectionalCollectionP"
@@ -59,6 +136,7 @@ depends-nominal:
 - "s25ExpressibleByArrayLiteralP"
 - "18ProtocolCodingDemo8FestivalV"
 - "18ProtocolCodingDemo05FirstC5ModelV"
+- "18ProtocolCodingDemo7HasDateP"
 - "s17MutableCollectionP"
 - "s22RandomAccessCollectionP"
 - "s26RangeReplaceableCollectionP"
@@ -87,4 +165,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "dea4522ef178b4939ed7b7c68320bc9a"
+interface-hash: "5a8300eb38fcfad8c61e2974698a96c5"

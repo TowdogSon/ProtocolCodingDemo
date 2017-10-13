@@ -7,7 +7,7 @@
 //
 
 import Foundation
-//每一个ViewController最好有一个数据模型相当于viewModel的作用,控制器拿到的就是直接能用的数据
+//viewController的直接数据源,所有数据通过这里拿到
 
 struct FirstDemoModel {
     var festivalArray = festivalData.map{Festival(dic:$0)}

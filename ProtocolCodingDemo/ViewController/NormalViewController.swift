@@ -32,13 +32,11 @@ extension NormalViewController:UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: firstCellID, for: indexPath) as! NormalTableViewCell
               // 回归异构数据的真实身份并区别显示
         if let festival  = mdata.mixedArray[indexPath.row] as? Festival {
-            cell.img.image = UIImage(named: "fes")
-            cell.title.text = festival.festivalName
-            cell.date.text = festival.date
+           let viewModel = FirstViewModel(model: festival)
+            cell.updateWithPresenter(presenter: viewModel)
         } else if let event = mdata.mixedArray[indexPath.row] as? Event {
-            cell.img.image = UIImage(named: "eve")
-            cell.title.text = event.eventTitle
-            cell.date.text = event.date
+            let viewModel = FirstViewModel(model: event)
+            cell.updateWithPresenter(presenter: viewModel)
         }
         return cell
     }

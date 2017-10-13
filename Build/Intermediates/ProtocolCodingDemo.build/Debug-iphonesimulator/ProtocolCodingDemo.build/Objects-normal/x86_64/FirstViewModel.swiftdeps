@@ -1,19 +1,11 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "HasDate"
 provides-nominal:
-- "18ProtocolCodingDemo7HasDateP"
 provides-member:
-- ["18ProtocolCodingDemo7HasDateP", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "HasDate"
-- "String"
 depends-member:
-- ["18ProtocolCodingDemo7HasDateP", "String"]
-- ["18ProtocolCodingDemo7HasDateP", "date"]
 depends-nominal:
-- "18ProtocolCodingDemo7HasDateP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -29,4 +21,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "dbc92e1d0d7a26df46ae6e3c80a2b5c2"
+interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"

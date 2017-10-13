@@ -25,6 +25,7 @@
 		A4D5F7011F908C9B00CDABAE /* dataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5F7001F908C9B00CDABAE /* dataSource.swift */; };
 		A4D5F7031F908EF200CDABAE /* FistDemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5F7021F908EF200CDABAE /* FistDemoModel.swift */; };
 		A4D5F7061F90950900CDABAE /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5F7051F90950900CDABAE /* protocols.swift */; };
+		A4EB98811F90C55C0002F905 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EB98801F90C55C0002F905 /* FirstViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		A4D5F7001F908C9B00CDABAE /* dataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataSource.swift; sourceTree = "<group>"; };
 		A4D5F7021F908EF200CDABAE /* FistDemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FistDemoModel.swift; sourceTree = "<group>"; };
 		A4D5F7051F90950900CDABAE /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
+		A4EB98801F90C55C0002F905 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				A4D5F6FE1F906F2800CDABAE /* globalModel.swift */,
 				A4D5F7001F908C9B00CDABAE /* dataSource.swift */,
 				A4D5F7021F908EF200CDABAE /* FistDemoModel.swift */,
+				A4EB98801F90C55C0002F905 /* FirstViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				A4D5F7061F90950900CDABAE /* protocols.swift in Sources */,
 				A4D5F6F51F90674200CDABAE /* NormalTableViewCell.swift in Sources */,
 				A4D5F7011F908C9B00CDABAE /* dataSource.swift in Sources */,
+				A4EB98811F90C55C0002F905 /* FirstViewModel.swift in Sources */,
 				A4D5F7031F908EF200CDABAE /* FistDemoModel.swift in Sources */,
 				A4D5F6F11F9066DB00CDABAE /* CollectViewController.swift in Sources */,
 			);
